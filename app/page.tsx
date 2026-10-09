@@ -131,7 +131,7 @@ export default function HomePage() {
           <a className="underline underline-offset-2 hover:text-foreground" href="/api/rules">/api/rules</a>,{" "}
           <a className="underline underline-offset-2 hover:text-foreground" href="/openapi.json">/openapi.json</a>,{" "}
           <a className="underline underline-offset-2 hover:text-foreground" href="/llms.txt">/llms.txt</a>, and the MCP tool on{" "}
-          <a className="underline underline-offset-2 hover:text-foreground" href="https://free-agent-tools.vercel.app/mcp" target="_blank" rel="noopener noreferrer">
+          <a className="underline underline-offset-2 hover:text-foreground" href="https://free-agent-tools.vercel.app/" target="_blank" rel="noopener noreferrer">
             free-agent-tools
           </a>
           .
