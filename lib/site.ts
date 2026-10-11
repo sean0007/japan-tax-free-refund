@@ -9,6 +9,7 @@ export const HONESTY =
   "Rules as of 2026-10-09 from the Japan Tourism Agency, National Tax Agency, and JNTO. The shop, its refund operator, and Japan Customs decide; operators may deduct a fee. Not affiliated with any government agency or shop.";
 
 export const SIBLING_TOOLS = [
+  { href: "https://japan-visa-fee.vercel.app", label: "Japan Visa Fee Calculator" },
   { href: "https://japan-trip-brain.vercel.app", label: "Japan Trip Brain" },
   { href: "https://hotel-ota-calculator.vercel.app", label: "Hotel OTA Calculator" },
   { href: "https://pitch-roast.vercel.app", label: "Pitch Roast" },

@@ -62,6 +62,7 @@ GET https://japan-tax-free-refund.vercel.app/api/rules
 Educational estimate, not tax advice. Rules can change; check official JNTO / JTA / NTA sources. The shop, refund operator, and Japan Customs decide. Not affiliated with any government agency or shop.
 
 ## Other free tools by the same maker
+- Japan Visa Fee Calculator (Oct 2026 residence permit fees): https://japan-visa-fee.vercel.app
 - Japan Trip Brain: https://japan-trip-brain.vercel.app
 - Hotel OTA Calculator: https://hotel-ota-calculator.vercel.app
 - Pitch Roast: https://pitch-roast.vercel.app
