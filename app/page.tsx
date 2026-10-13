@@ -13,6 +13,18 @@ export const metadata: Metadata = {
   alternates: { canonical: "/" },
 };
 
+const appJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  name: "Japan Tax-Free Refund Checker",
+  url: `${PUBLIC_URL}/`,
+  applicationCategory: "TravelApplication",
+  operatingSystem: "Any (web browser)",
+  isAccessibleForFree: true,
+  offers: { "@type": "Offer", price: "0", priceCurrency: "JPY" },
+  description,
+};
+
 const faq: FaqItem[] = [
   {
     q: "How does tax-free shopping work in Japan after November 2026?",
@@ -138,6 +150,10 @@ export default function HomePage() {
         </p>
       </section>
 
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(appJsonLd).replace(/</g, "\\u003c") }}
+      />
       <FaqSection items={faq} heading="Japan tax-free refund questions" />
     </div>
   );
