@@ -66,6 +66,7 @@ Educational estimate, not tax advice. Rules can change; check official JNTO / JT
 - Japan Visa Fee Calculator (Oct 2026 residence permit fees): https://japan-visa-fee.vercel.app
 - Kyushu Travel Discount Calculator (九州ふっこう応援割 2026: 50–60% off, caps, booking windows by prefecture): https://kyushu-travel-discount.vercel.app
 - Japan Customs Allowance Checker (duty-free allowance on arrival: alcohol, tobacco, perfume, ¥200,000 goods, duty estimate, cash declaration; keyless API): https://japan-customs-allowance.vercel.app
+- Japan TB Screening Check (JPETS: do Philippine, Nepali, Vietnamese, Indonesian applicants need a TB Clearance Certificate for a COE/visa; Indonesia from 2027-01-04; keyless API): https://japan-tb-screening.vercel.app
 - Japan Trip Brain: https://japan-trip-brain.vercel.app
 - Hotel OTA Calculator: https://hotel-ota-calculator.vercel.app
 - Pitch Roast: https://pitch-roast.vercel.app
