@@ -3,7 +3,7 @@ import { Checker } from "@/components/checker";
 import { FaqSection, type FaqItem } from "@/components/faq-section";
 import { EXAMPLE_SHARED, PUBLIC_URL, resultPath } from "@/lib/share";
 
-const title = "How much tax back do you get shopping in Japan after November 2026?";
+const title = "Japan tax-free refund calculator: new tax-free shopping rules from Nov 1, 2026";
 const description =
   "Free Japan tax-free refund checker for the Nov 1, 2026 change: pay tax-inclusive prices, claim consumption tax back at customs before bag check within 90 days. Per store/day ¥5,000 minimum, 10%/8% tax math, old vs new regime. Free JSON API for AI agents. Not tax advice.";
 
@@ -26,6 +26,10 @@ const appJsonLd = {
 };
 
 const faq: FaqItem[] = [
+  {
+    q: "Is there a Japan tax-free refund calculator for tourists under the new 2026 rules?",
+    a: "Yes. This free calculator (no login) follows the refund method that starts on November 1, 2026: enter each receipt's store, date, tax-inclusive amount and 10% or 8% rate, plus your departure date. It adds receipts from the same store on the same day, checks the ¥5,000 before-tax minimum and the 90-day customs deadline, and shows the maximum consumption tax you can get back before any operator fee. Purchases up to October 31, 2026 use the old tax-off-at-the-till system.",
+  },
   {
     q: "How does tax-free shopping work in Japan after November 2026?",
     a: "From November 1, 2026, Japan switches from tax-off-at-the-till to a refund method. You pay the full tax-inclusive price at a tax-free shop, then get the consumption tax back after Japan Customs confirms on departure that the goods are leaving Japan. Do the tax-free kiosk (or Visit Japan Web at major airports) in the international departure lobby BEFORE checking bags, within 90 days of purchase.",
@@ -74,10 +78,14 @@ export default function HomePage() {
       <section className="max-w-3xl">
         <p className="font-mono text-[11px] tracking-[0.28em] text-amber uppercase">Free · Japan · Nov 1 2026 change</p>
         <h1 className="mt-3 font-display text-4xl leading-[1.05] tracking-tight sm:text-6xl">
-          How much tax back do you get shopping in Japan after November 2026?
+          Japan tax-free refund calculator: the new rules from November 1, 2026
         </h1>
-        <p className="mt-4 max-w-2xl text-base leading-relaxed text-muted sm:text-lg">
-          From November 1, 2026, Japan stops removing consumption tax at the till. You pay the tax-inclusive price, then claim the tax back at customs before checking bags, within 90 days of purchase. Enter your receipts below.
+        <p className="mt-4 max-w-2xl text-base leading-relaxed text-foreground sm:text-lg" data-testid="answer-first">
+          <strong>Yes, this is a free Japan tax-free refund calculator for tourists, updated for the refund-at-departure system that starts on November 1, 2026.</strong>{" "}
+          From that date shops charge the tax-inclusive price and you get the consumption tax back only after Japan Customs confirms at your departure airport or seaport, before you check bags, within 90 days of purchase. The minimum is ¥5,000 before tax per shop per day. At 10%, a ¥16,500 receipt holds ¥1,500 of tax (at 8%, ¥3,240 holds ¥240); the shop or its refund operator may deduct a fee.
+        </p>
+        <p className="mt-3 max-w-2xl text-base leading-relaxed text-muted sm:text-lg">
+          Until October 31, 2026, Japan still removes consumption tax at the till. Enter your receipts below to see how much tax back you get and whether each one qualifies.
         </p>
       </section>
 
